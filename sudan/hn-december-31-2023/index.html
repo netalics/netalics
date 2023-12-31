@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en" xmlns:og="http://opengraphprotocol.org/schema/"
+  xmlns:fb="http://www.facebook.com/2008/fbml" itemscope itemtype="http://schema.org/Map">
+
+<head>
+  <title>Netalics Network Visualisation</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+  <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css" />
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+  <link rel="stylesheet" media="screen and (max-height: 770px)" href="css/tablet.css" />
+</head>
+
+
+<body>
+  <div class="sigma-parent">
+    <div class="sigma-expand" id="sigma-canvas">
+      <p class="nameCompany">netalics.net</p>
+      <!--YOUR CANVAS-->
+    </div>
+  </div>
+  <button class="btn" onclick="doCapture();"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <title>15.Arrow Down15.Arrow Down</title>
+      <g id="_15.Arrow_Down" data-name="15.Arrow Down">
+        <path
+          d="M12,24A12,12,0,1,1,24,12,12.013,12.013,0,0,1,12,24ZM12,2A10,10,0,1,0,22,12,10.011,10.011,0,0,0,12,2Z" />
+        <polygon points="12 18.414 7.293 13.707 8.707 12.293 12 15.586 15.293 12.293 16.707 13.707 12 18.414" />
+        <rect x="11" y="6" width="2" height="11" />
+      </g>
+    </svg></button>
+  <button class="fscr"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 384.97 384.97"
+      style="enable-background:new 0 0 384.97 384.97;" xml:space="preserve">
+      <g>
+        <g id="Fullscreen">
+          <path d="M384.97,12.03c0-6.713-5.317-12.03-12.03-12.03H264.847c-6.833,0-11.922,5.39-11.934,12.223
+  			c0,6.821,5.101,11.838,11.934,11.838h96.062l-0.193,96.519c0,6.833,5.197,12.03,12.03,12.03c6.833-0.012,12.03-5.197,12.03-12.03
+  			l0.193-108.369c0-0.036-0.012-0.06-0.012-0.084C384.958,12.09,384.97,12.066,384.97,12.03z" />
+          <path d="M120.496,0H12.403c-0.036,0-0.06,0.012-0.096,0.012C12.283,0.012,12.247,0,12.223,0C5.51,0,0.192,5.317,0.192,12.03
+  			L0,120.399c0,6.833,5.39,11.934,12.223,11.934c6.821,0,11.838-5.101,11.838-11.934l0.192-96.339h96.242
+  			c6.833,0,12.03-5.197,12.03-12.03C132.514,5.197,127.317,0,120.496,0z" />
+          <path d="M120.123,360.909H24.061v-96.242c0-6.833-5.197-12.03-12.03-12.03S0,257.833,0,264.667v108.092
+  			c0,0.036,0.012,0.06,0.012,0.084c0,0.036-0.012,0.06-0.012,0.096c0,6.713,5.317,12.03,12.03,12.03h108.092
+  			c6.833,0,11.922-5.39,11.934-12.223C132.057,365.926,126.956,360.909,120.123,360.909z" />
+          <path d="M372.747,252.913c-6.833,0-11.85,5.101-11.838,11.934v96.062h-96.242c-6.833,0-12.03,5.197-12.03,12.03
+  			s5.197,12.03,12.03,12.03h108.092c0.036,0,0.06-0.012,0.084-0.012c0.036-0.012,0.06,0.012,0.096,0.012
+  			c6.713,0,12.03-5.317,12.03-12.03V264.847C384.97,258.014,379.58,252.913,372.747,252.913z" />
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+        <g>
+        </g>
+      </g>
+      <g>
+      </g>
+      <g>
+      </g>
+      <g>
+      </g>
+      <g>
+      </g>
+      <g>
+      </g>
+      <g>
+      </g>
+      <g>
+      </g>
+      <g>
+      </g>
+      <g>
+      </g>
+      <g>
+      </g>
+      <g>
+      </g>
+      <g>
+      </g>
+      <g>
+      </g>
+      <g>
+      </g>
+      <g>
+      </g>
+    </svg></button>
+  <div id="mainpanel" class="active">
+    <div class="col">
+      <div id="title"></div>
+      <div id="titletext"></div>
+      <div class="info cf">
+        <dl>
+          <dt class="moreinformation"></dt>
+          <dd class="line"><a href="#information" class="line fb">More about this visualisation</a></dd>
+        </dl>
+      </div>
+      <div class="b1">
+        <form>
+          <div id="search" class="cf">
+            <input type="text" name="search" placeholder="Search..." class="empty" />
+            <label for="search">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
+
+                <defs>
+                </defs>
+                <g style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill-rule: nonzero; opacity: 1;"
+                  transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)">
+                  <path
+                    d="M 45 0 C 20.187 0 0 20.187 0 45 c 0 24.813 20.187 45 45 45 c 24.813 0 45 -20.187 45 -45 C 90 20.187 69.813 0 45 0 z M 38.737 73.4 l -8.6 -8.6 L 49.936 45 L 30.136 25.201 l 8.6 -8.6 l 28.4 28.4 L 38.737 73.4 z"
+                    style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill-rule: nonzero; opacity: 1;"
+                    transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+                </g>
+              </svg>
+            </label>
+            <div class="results"></div>
+          </div>
+          <div class="cf" id="attributeselect">
+            <div class="select">Select cluster</div>
+            <div class="list cf"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="information">
+    </div>
+  </div>
+
+  <div id="attributepane">
+    <div class="text">
+      <div title="Close" class="left-close returntext">
+        <div class="c cf"><span>Return to the full network</span></div>
+      </div>
+      <div class="headertext">
+        <span>Information Pane</span>
+      </div>
+      <div class="nodeattributes">
+        <div class="name"></div>
+        <div class="data"></div>
+        <div class="p">Connections:</div>
+        <div class="link">
+          <ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    #attributeselect .list {
+      display: none;
+      border: 1px solid #999;
+      padding: 6px;
+      height: 150px;
+      width: 226px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      background-color: #999;
+      position: static;
+      margin: 0;
+      color: white;
+    }
+
+    #mainpanel {
+      margin-top: 50px;
+      margin-left: 25px;
+      background-color: rgba(255, 255, 255, 0.2);
+      border: none;
+      border-radius: 5px;
+      z-index: 20;
+      position: fixed;
+      top: 0;
+      left: -298px;
+      transition: all 0.3s ease 0s;
+    }
+
+    #mainpanel.active {
+      left: 0px;
+    }
+
+    #mainpanel .col {
+      width: 250px;
+      padding: 18px;
+      margin: 0;
+      z-index: 2;
+      position: relative;
+      max-height: calc(100vh - 70px);
+      background: none;
+    }
+
+    #search {
+      border-top: none;
+      padding: 10px 0 0px 2px;
+      color: #FFF;
+      position: relative;
+    }
+
+    #search svg {
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      top: 0%;
+      right: 10px;
+      fill: #fff;
+      transform: translate(0, 80%);
+      cursor: pointer;
+    }
+
+    #search .results {
+      max-height: 160px;
+    }
+
+    #search input[name=search] {
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 5px 7px 4px 7px;
+      width: 195px;
+      color: #FFF;
+      border-radius: 5px;
+    }
+
+    #search input[name=search]::placeholder {
+      color: #fff;
+    }
+
+    #search .results a {
+      color: #fff;
+    }
+
+    #attributeselect .select {
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 5px 7px 4px 7px;
+      color: #fff;
+      cursor: pointer;
+      background-color: rgba(255, 255, 255, 0.1);
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      width: 224px;
+      background-image: none;
+    }
+
+    #attributeselect .list {
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 6px;
+      height: 150px;
+      width: 226px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      background-color: rgba(255, 255, 255, 0.3);
+      position: absolute;
+      color: white;
+    }
+
+    .btn {
+      position: fixed;
+      top: 20px;
+      right: 8%;
+      transform: translate(-50%, 0);
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease 1s;
+    }
+
+    .btn.leftt {
+      right: 50%;
+    }
+
+    .btn::after {
+      content: "Download graph";
+      display: block;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translate(-50%, 120%);
+      background: #363636;
+      color: #fff;
+      font-weight: 600;
+      padding: 10px;
+      border-radius: 5px;
+      opacity: 0;
+      transition: all 0.3s ease 0s;
+      cursor: default;
+      pointer-events: none;
+    }
+
+    .btn:hover::after {
+      opacity: 1;
+      pointer-events: none;
+    }
+
+    .btn svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    .fscr {
+      position: fixed;
+      top: 20px;
+      right: 8%;
+      transform: translate(-250%, 0);
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease 1s;
+    }
+
+    .fscr.leftt {
+      right: 50%;
+    }
+
+    .col #title {
+      color: #fff;
+    }
+
+    .col #titletext {
+      color: #fff;
+    }
+
+    .col .info a {
+      color: #fff;
+    }
+
+    .fscr::after {
+      content: "Full-Screen";
+      display: block;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translate(-50%, 120%);
+      background: #363636;
+      color: #fff;
+      font-weight: 600;
+      padding: 10px;
+      border-radius: 5px;
+      opacity: 0;
+      transition: all 0.3s ease 0s;
+      cursor: default;
+      pointer-events: none;
+    }
+
+    .fscr:hover::after {
+      opacity: 1;
+      pointer-events: none;
+    }
+
+    .fscr svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    .nameCompany {
+      position: fixed;
+      top: 20px;
+      left: 85px;
+      font-size: 32px;
+      z-index: 2;
+    }
+
+    body .nameCompany {
+      color: #fff;
+    }
+
+    body .sigma-expand {
+      background: #0c1c3b;
+    }
+
+    body .fscr svg {
+      fill: #fff;
+    }
+
+    body .btn svg {
+      fill: #fff;
+    }
+  </style>
+  <script src="js/jquery/jquery.min.js" type="text/javascript"></script>
+  <script src="js/sigma/sigma.min.js" type="text/javascript" language="javascript"></script>
+  <script src="js/sigma/sigma.parseJson.js" type="text/javascript" language="javascript"></script>
+  <script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript" language="javascript"></script>
+  <script src="js/main.js" type="text/javascript" language="javascript"></script>
+  <script src="html2canvas.js"></script>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-21293169-4']);
+    _gaq.push(['_setDomainName', 'none']);
+    _gaq.push(['_setAllowLinker', true]);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+
+    function doCapture() {
+      window.scrollTo(0, 0);
+
+      html2canvas(document.querySelector(".sigma-expand")).then(function (canvas) {
+        let link = document.createElement("a");
+        link.setAttribute("href", canvas.toDataURL("image/jpeg", 0.9));
+        link.setAttribute("download", "image.jpg");
+
+        link.click();
+      });
+    }
+
+    let fullscreen = document.querySelector("body");
+    let button = document.querySelector(".fscr");
+
+    button.addEventListener("click", () => {
+      if (!document.fullscreenElement) {
+        fullscreen?.requestFullscreen();
+      } else {
+        document.exitFullscreen();
+      }
+    });
+
+    let attributepane = document.getElementById("attributepane");
+    document.querySelector(".sigma-expand").addEventListener("click", () => {
+      if (attributepane.style.display == "block") {
+        document.querySelector(".btn").classList.add("leftt");
+        document.querySelector(".fscr").classList.add("leftt");
+        document.querySelector(".dark").classList.add("leftt");
+      }
+    });
+
+    document.querySelector(".left-close").addEventListener("click", () => {
+      document.querySelector(".btn").classList.remove("leftt");
+      document.querySelector(".fscr").classList.remove("leftt");
+      document.querySelector(".dark").classList.remove("leftt");
+    });
+
+  </script>
+</body>
+
+</html>
